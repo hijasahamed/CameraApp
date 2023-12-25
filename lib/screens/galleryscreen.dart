@@ -103,7 +103,7 @@ class GalleryScreen extends StatelessWidget {
           appBar: AppBar(
             backgroundColor: Colors.black,
             leading: IconButton(onPressed: (){
-              Navigator.of(context).pop();
+              Navigator.of(context).pop(); 
             }, icon: Icon(Icons.arrow_back,color: Colors.white,),
           ), 
             title: Text('image ${index+1}',style: TextStyle(color: Colors.white),),
